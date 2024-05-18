@@ -1,0 +1,40 @@
+/* Remove margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 50%;
+    max-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naosei{
+    background-color: rgb(22, 2, 2);
+}
+
+.container img{
+    max-width: 40%;
+    max-height: 40%;
+    position: absolute;
+}
+.image {
+    z-index: 1;
+}
+h1{
+    color: #ffffff;
+    position: absolute;
+    top:10%;
+    size: 500px;
+}
